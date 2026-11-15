@@ -1,0 +1,30 @@
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.streamlit/secrets.toml
+data/
+*.tif
+*.tiff
+app_backup*.py
+app_before*.py
+
+# Sensitive credentials
+.streamlit/secrets.toml
+secrets.toml
+.env
+.env.*
+
+# Large scientific data
+*.tif
+*.tiff
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+
+# Backup files
+app_backup*.py
+app_before*.py
